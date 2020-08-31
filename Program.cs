@@ -12,6 +12,7 @@ namespace coredb
             var ret = from c in db.TMember
                       select c;
 
+            //...
             foreach (var item in ret)
             {
                 Console.WriteLine($"{item.FName} - {item.FAge} - {item.FSex} ");
